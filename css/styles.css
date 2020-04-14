@@ -292,7 +292,7 @@ body {
 
     .PDFImages
     {
-        display: ;
+        display: block;
         right: 33vh;
         margin: 3vh;
         width: 40vh;
