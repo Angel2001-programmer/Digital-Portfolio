@@ -130,7 +130,7 @@ body {
 .footer2
 {
     display: block;
-    padding-top: 8vh;
+    margin-top: 18vh;
     text-align: center;
 }
 
@@ -164,12 +164,6 @@ body {
     text-align: center;
     color: #0062cc;
 }
-
-/* .contact-form #message
-{
-    position: relative;
-    top: 3vh;
-} */
 
 .contact-form .btnContact {
     padding-bottom: 15vh;
@@ -287,6 +281,7 @@ body {
 
     .footer 
     {      
+        padding-bottom: 3vh;
         position: relative;
         align-items: center;
         margin-top: 1vh;
