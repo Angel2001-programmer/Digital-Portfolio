@@ -118,12 +118,20 @@ body {
 }
 .footer
 {
+    display: block;
     position: relative;
     text-align: center;
     width: auto;
     color: rgb(75, 74, 74);
     font-family: 'Bree Serif', serif; 
     margin-top: 50px;
+}
+
+.footer2
+{
+    display: block;
+    padding-top: 8vh;
+    text-align: center;
 }
 
 .contact-form{
