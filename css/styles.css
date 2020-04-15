@@ -281,15 +281,14 @@ body {
 
     .footer 
     {      
-        padding-bottom: 3vh;
         position: relative;
         align-items: center;
-        margin-top: 1vh;
+        margin-top: 2vh;
     }
 
     .video 
     {
-        width: 59vh;
+        width: 50vh;
         overflow: hidden;
     }
 
@@ -305,11 +304,15 @@ body {
     .PDF2
     {
         display: block;
-        position: relative;
-        right: 25vh;
+        right: 33vh; 
         margin: 3vh;
         width: 40vh;
         overflow: hidden;
+    }
+
+    .footer2
+    {
+        margin-top: 0;
     }
 
 }
