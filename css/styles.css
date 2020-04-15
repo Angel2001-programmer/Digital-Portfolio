@@ -304,9 +304,10 @@ body {
     .PDF2
     {
         display: block;
-        right: 33vh; 
+        position: relative;
+        right: 38vh;
         margin: 3vh;
-        width: 40vh;
+        width: 50vh;
         overflow: hidden;
     }
 
