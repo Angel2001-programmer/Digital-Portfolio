@@ -303,7 +303,7 @@ body {
 
     .PDF2
     {
-        display: block;
+        display: none;
         position: relative;
         right: 38vh;
         margin: 3vh;
