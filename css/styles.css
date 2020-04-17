@@ -230,6 +230,11 @@ body {
    margin: 0 auto 3vh auto;
 } 
 
+.mobilev
+{
+    display: none;
+}
+
 /* Tablet or screen */
 
 @media (min-width: 200px) and (max-width: 1024px)
@@ -289,8 +294,8 @@ body {
 
     .Imagesu
     {
-        width: 50vh;
-        right: 35vh;
+
+        display: none;
         
     }
 
@@ -311,13 +316,6 @@ body {
         overflow: hidden;
     }
 
-    .PDF2, .p
-    {
-        display: block;
-        top: -5vh;
-        margin-bottom: -98vh;
-    }
-
     .OverallGrade1
     {
         margin-top: 45vh;
@@ -330,12 +328,21 @@ body {
 
     .OverallGrade
     {
-        margin-top: 8vh;
+        margin-top: 0;
     }
 
     .footer2
     {
         margin-top: 0;
+    }
+
+    .mobilev
+    {
+        position: relative;
+        display: block;
+        margin-top: 0;
+        margin-left: -35vh;
+        padding: 0;
     }
 
 }
