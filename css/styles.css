@@ -9,11 +9,13 @@ body {
     font-size: 15px;
 }
 
+/* logo on the webpage styling */
 .logoweb
 {
     border-radius: 50%;
 }
 
+/* content styling */
 .Workcontent
 {
     padding-top: 3vh;
@@ -22,11 +24,14 @@ body {
     padding-right: 35vh;
 }
 
+/* navigation styling */
 .navbar img
 {
     height: 70px;
     width: 100px;
 }
+
+/* background header styling */
 .masthead {
     height: 95vh;
     background-image: url('https://store.hp.com/app/assets/images/uploads/prod/how-to-monitor-your-computers-performance-hero1538096428357.jpg');
@@ -35,6 +40,8 @@ body {
     background-repeat: no-repeat;
     position: relative;
   }
+
+/* color overlay styling */
   .color-overlay
 {
     width: 100%;
@@ -43,6 +50,8 @@ body {
     opacity: .7;
     position: absolute;
 }
+
+/* text for the header styling */
 .Headingtext
 {
     color: white;
@@ -59,6 +68,8 @@ body {
 
     
 }
+
+/* maincontent and images styling */
 .maincontent
 {
     position: relative;
@@ -80,6 +91,7 @@ body {
     
 }
 
+/* profile picture on the about page styling */
 .profile
 {
     position: relative;
@@ -95,6 +107,7 @@ body {
 
 }
 
+/* maincontent styling */
 .maincontentp
 {
     position: relative;
@@ -106,6 +119,8 @@ body {
     padding-top: 5vh;
     font-family: 'Bree Serif', serif;
 }
+
+/* buttons styling */
 .btn1
 {
     position: relative;
@@ -116,6 +131,8 @@ body {
     margin-top: 5vh;
     font-family: 'Bree Serif', serif;
 }
+
+/* footer styling */
 .footer
 {
     display: block;
@@ -134,6 +151,7 @@ body {
     text-align: center;
 }
 
+/* contact form styling */
 .contact-form{
     background: #fff;
     width: 100%;
@@ -196,7 +214,7 @@ body {
     margin-bottom: 3vh;
 }
 
-
+/* OverallGrade styling */
 .OverallGrade
 {
     position: relative;
@@ -206,6 +224,7 @@ body {
     margin: 0;
 }
 
+/* Graphics on the desktop styling */
 .video 
 {
 	display: block;
@@ -236,7 +255,6 @@ body {
 }
 
 /* Tablet or screen */
-
 @media (min-width: 200px) and (max-width: 1024px)
 
 {   
@@ -256,6 +274,7 @@ body {
     display: none;
     }
     
+/* maincontent styling */
     .maincontent 
     {
         position: relative;
@@ -265,11 +284,13 @@ body {
         overflow: hidden;
     }
 
+    /* buttons styling */
     .py-5
     {
         display: none;
     }
     
+/* Headingtext styling */
     .Headingtext
     {
         font-size: 13vh;
@@ -285,6 +306,7 @@ body {
     
 }
 
+/* footer styling */
     .footer 
     {      
         position: relative;
@@ -292,6 +314,7 @@ body {
         margin-top: 2vh;
     }
 
+/* images/PDF styling */
     .Imagesu
     {
 
@@ -316,6 +339,7 @@ body {
         overflow: hidden;
     }
 
+/* OverallGrade styling */
     .OverallGrade1
     {
         margin-top: 45vh;
@@ -331,11 +355,13 @@ body {
         margin-top: 0;
     }
 
+/* footer styling */
     .footer2
     {
         margin-top: 0;
     }
 
+/* mobilev styling */
     .mobilev
     {
         position: relative;
