@@ -4,10 +4,18 @@
     box-sizing: border-box;
 }
 
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 body {
     padding-bottom: 10px;
     font-family: 'Bree Serif', serif;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 /* logo on the webpage styling */
@@ -32,14 +40,10 @@ body {
     width: 100px;
 }
 
-/* .navbar-dark 
-{
-    display: none;
-} */
-
-/* background header styling */
+/* Background */
 .masthead {
     height: 95vh;
+    width: 100%;
     background-image: url('https://store.hp.com/app/assets/images/uploads/prod/how-to-monitor-your-computers-performance-hero1538096428357.jpg');
     background-size: cover;
     background-position: center;
@@ -60,10 +64,18 @@ body {
 /* text for the header styling */
 .Headingtext
 {
+    position: relative;
     color: white;
-    font-size: 15vh;
     font-family: 'Bree Serif', serif;
+    font-size: 20vh;
 }
+
+.cnav
+{
+    display: none;
+}
+
+
 .containerb
 {
     position: relative;
@@ -265,16 +277,26 @@ body {
 }
 
 /* Tablet or screen */
-@media only screen and (min-device-width : 414px) and (max-device-height : 896px) and (-webkit-device-pixel-ratio : 3) { }
+@media only screen and (max-width: 1400px) {
+
+    .Headingtext
+    {
+        font-size: 20vmin;
+    }
+
+    .cnav
+    {
+    display: block;
+    }
 
     .maincontentp
-{
+    {
     padding-right: 2vh;
     padding-left: 2vh;
     text-align: left;
     hyphens: auto;
-    font-size: 17px;
-}
+    font-size: 4vmin;
+    }
 
     .containerb
     {
@@ -290,7 +312,14 @@ body {
         text-align: left;
         hyphens: auto;
         overflow: hidden;
+        font-size: 4vmin;
     }
+
+    .headingtextunits
+    {
+        font-size: 7vmin;
+    }
+
 
     /* buttons styling */
     .py-5
@@ -299,20 +328,18 @@ body {
     }
     
 /* Headingtext styling */
-    .Headingtext
-    {
-        font-size: 13vh;
-    }
+
     .mainimage
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50vh;
-    padding-bottom: 4vh;
-    position: relative;
+    {
+        width: 100%;
     
-}
+    }
+
+    .profile
+    {
+        width: 45%;
+        height: 45%;
+    }
 
 /* footer styling */
     .footer 
@@ -320,6 +347,8 @@ body {
         position: relative;
         align-items: center;
         margin-top: 2vh;
+        padding-left: 3vh;
+        padding-right: 3vh;
     }
 
 /* images/PDF styling */
@@ -330,10 +359,10 @@ body {
         
     }
 
-
     .video 
     {
-        width: 50vh;
+        width: 90vmin;
+        height: 100vmin;
         overflow: hidden;
     }
 
@@ -361,12 +390,17 @@ body {
     .OverallGrade
     {
         margin-top: 0;
+        font-size: 7vmin;
     }
 
 /* footer styling */
     .footer2
     {
-        margin-top: 0;
+        position: relative;
+        align-items: center;
+        margin-top: 2vh;
+        padding-left: 3vh;
+        padding-right: 3vh;
     }
 
 /* mobilev styling */
@@ -379,4 +413,12 @@ body {
         padding: 0;
     }
 
+    
+    .contact-image img{
+        position: relative;
+        top: 1vh;
+
+    }
 }
+
+
